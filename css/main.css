@@ -17,7 +17,7 @@ section, section div, aside div, footer {
   box-sizing: border-box;
 }  
 
-header, section, aside>div{
+header, section, footer, aside>div{
   background-color: #fff;
 }
 
@@ -96,7 +96,7 @@ section{
 }
 
 .content_img_1{
-  background: url("picture/1.jpg") no-repeat;
+  background-image: url("picture/1.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -110,15 +110,16 @@ section{
   padding: 0px;
 }
 
-.wrapper footer {
+section, footer{
+  border: #07090a solid 1px;
+}
+footer {
   clear: both;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 15px 0 12px 0;
-  height: 45px;
-  text-align: center;
+  height: 60px;
   font-size: 16px;
-  line-height: 19px;
-  border: #1b2325 solid 1px;
-  background: #cedfd6;
+  margin-bottom: 20px;
+ /* line-height: 0px;*/
 }
 
