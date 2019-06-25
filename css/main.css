@@ -1,89 +1,116 @@
 body {
-  font-family: Roboto;
-  background: #e4e6e5;
+  margin: 5;
+  padding-top: 128px;
+  font-family: Roboto, Arial, Hevletica;
+  background: #f1f1f1;
 }
 
 /* Стили для общего оборачивающего контейнера */
-#wrapper {
-  width: 1200px;
+.wrapper {
+  width: 1665px;
   margin: 0 auto;
-  padding: 10px 0 10px 0;
+  font-size: 0;
 }	
 
-/*---- Начало заглавной части страницы ----*/
+.wrapper, header, main, aside,
+section, section div, aside div, footer {
+  box-sizing: border-box;
+}  
 
-/* Отступы для общего оборачивающего контейнера заглавной части  */
-#wrapper #header {
-  padding: 0px 50px 5px;
+header, section, aside>div{
+  background-color: #fff;
 }
 
-/* Задание фона в виде картинки для заглавной части через общий контейнер */
-#wrapper #header .top_banner {
-  height: 175px;
-  padding: 75px 75px 75 295px;
-  border: #496066 solid 1px;
-  background: white;
+h1, footer p{
   text-align: center;
-  
 }
 
-/* Стилизация главного заголовка страницы */
-#wrapper #header h1{
-  font-size: 32px;
-  color: #000000;
-  margin: 60px ;
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+header{
+  height: 229px;
+  padding-top: 85px;
+}
+
+h1, h2,
+.section_title p,
+.about_me_title,
+.aside_title,
+footer p{
   font-weight: bold;
-  padding: 5px 5px 5px 5 px;
-  border-width: 1px;
 }
 
-/*---- Конец заглавной части страницы ----*/
-
-
-/*---- Блок навигации ----*/
-
-/*---- Начало блока контента ----*/
-
-/* Стили для общего оборачивающего блока контента  */
-#page_content {
-  width: 1200px;
-  background: rgb(161, 245, 245);
-  padding: 10px;
-  border: black solid 5px;
-  display: inline-block;
+h1, h2,
+.about_me_title, footer p,
+.content_img p, .about_me_img p,
+.popular_post_img_1 p,
+.popular_post_img_2 p,
+.popular_post_img_3 p,
+{
+  margin: 0px;
 }
 
-#page_content p{
-  padding: 3px;
-  border-style: solid;
-  border-width: 2px;
+main{
+  width: 1250px;
+  margin-right: 20px;
 }
 
-/* Стили для оборачивающего блока левого сайдбара */
-#page_content #page_content_left {
-  width: 65%;
-  background: #2a18d4;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  float: left;
-  padding: 0px 0 20px 0;
+aside{
+ width: 395px;
 }
 
-#page_content #page_content_right {
-  width: 30%;
-  background: #2a18d4;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  float: right;
-  padding: 0px 0 20px 0;
+main, aside {
+  font-size: 16px;
+  display:inline-block;
+  height: 960px;
+  vertical-align: bottom;
 }
 
+main section,
+.about_me, .popular_post,
+.follow_me{
+  margin-top: 20px;
+  padding: 40px 20px 20px 20 px;
+}
 
+section{
+  height: 449px;
+}
 
-/*---- Начало блока подвала (футера) ----*/
+.section_title p{
+  font-size: 12px;
+  margin: 23px 0px;
+}
 
-/* Стили для оборачивающего блока подвала (футера) */
-#wrapper #footer {
+.content_img_1,
+.content_img_2{
+  height: 200px;
+  width:  300px;
+}
+
+.content_img_1{
+  background: url("picture/1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.popular_post_img_1 p,
+.popular_post_img_2 p,
+.popular_post_img_3 p,
+.about_me_img,
+.content_img_1,
+.content_img_2
+{
+  padding: 0px;
+}
+
+.wrapper footer {
   clear: both;
   margin-top: 20px;
   padding: 15px 0 12px 0;
@@ -95,4 +122,3 @@ body {
   background: #cedfd6;
 }
 
-/*---- Конец блока подвала (футера) ----*/

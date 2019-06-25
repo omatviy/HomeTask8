@@ -1,0 +1,81 @@
+<!--      <div class="left_side_bar"> -->
+      <div id="page_content_left" >
+          <p>Page page_content_left_p</p>
+<!--
+          <div id="main_bar_1">
+            <h2>Title Heading 1_1 h2</h2>
+            <p>Title description 1_2 p</p>
+            <div class="box">
+              <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+            </div>
+            <p>Some text 1_2</p>
+          </div>
+
+          <div id="main_bar_2">
+              <h2>Title Heading 2_1</h2>
+              <p>Title description 2_2</p>
+              <div class="box">
+                <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+              </div>
+              <p>Some text 1_2</p>
+          </div>           
+        --          
+     </div> -->
+     </div>
+<!--
+      <div id="page_content_right" class="right_side_bar">
+          page_content_right
+          <div id="main_bar_1">
+              <h2>Title Heading 2_1</h2>
+              <p>Title description 2_1</p>
+              <div class="box">
+                <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+              </div>
+              <p>Some text 2_1</p>
+            </div>
+  
+            <div id="main_bar_2">
+                <h2>Title Heading 2_2</h2>
+                <p>Title description 2_2</p>
+                <div class="box">
+                  <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+                </div>
+                <p>Some text 2_2</p>
+              </div>           
+  
+      </div>
+    --> 
+
+
+
+<div class="wrapper">
+    <header>
+    </header>
+    <div id="header">
+      <div class="top_banner">
+        <h1>Blog Name</h1>
+      </div>   
+    </div>
+
+    <div id="page_content">
+    <main>  
+      <p>Page content</p>
+      
+       <div id="page_content_left" >
+          <p>Page page_content_left_p</p>
+      </div>
+    </main> 
+
+     <aside>
+      <div id="page_content_right" >
+        <p>Page page_content_right_p</p>
+      </div>
+     </aside>
+
+    </div>  
+    <!--start footer from here-->
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+  </div>
