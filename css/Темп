@@ -1,0 +1,48 @@
+  097 30 24 262 Наталя Снятин Вовчківці
+
+  <div id="wrapper">
+
+    <div id="header">
+
+      <div class="top_banner">
+        <h1>Blog Name</h1>
+      </div>
+
+    </div>
+
+    <div id="page_content">
+     <div class="left_side_bar">
+
+      <div id="main_bar1">
+        <h2>Title Heading</h2>
+        <p>Title description </p>
+        <div class="box">
+            <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+        </div>
+        <p>Some text </p>
+      </div>
+
+      <div id="main_bar2">
+          <h2>Title Heading</h2>
+          <p>Title description </p>
+          <div class="box">
+              <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+          </div>
+          <p>Some text </p>
+        </div>
+      </div>
+     </div>
+    </div>
+      
+  
+
+    <div class="clear"></div>
+
+    <!--start footer from here-->
+    <div id="footer">
+        Footer
+    </div>
+
+    
+
+  </div>

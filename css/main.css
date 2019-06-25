@@ -1,0 +1,98 @@
+body {
+  font-family: Roboto;
+  background: #e4e6e5;
+}
+
+/* Стили для общего оборачивающего контейнера */
+#wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+}	
+
+/*---- Начало заглавной части страницы ----*/
+
+/* Отступы для общего оборачивающего контейнера заглавной части  */
+#wrapper #header {
+  padding: 0px 50px 5px;
+}
+
+/* Задание фона в виде картинки для заглавной части через общий контейнер */
+#wrapper #header .top_banner {
+  height: 175px;
+  padding: 75px 75px 75 295px;
+  border: #496066 solid 1px;
+  background: white;
+  text-align: center;
+  
+}
+
+/* Стилизация главного заголовка страницы */
+#wrapper #header h1{
+  font-size: 32px;
+  color: #000000;
+  margin: 60px ;
+  font-weight: bold;
+  padding: 5px 5px 5px 5 px;
+  border-width: 1px;
+}
+
+/*---- Конец заглавной части страницы ----*/
+
+
+/*---- Блок навигации ----*/
+
+/*---- Начало блока контента ----*/
+
+/* Стили для общего оборачивающего блока контента  */
+#page_content {
+  width: 1200px;
+  background: rgb(161, 245, 245);
+  padding: 10px;
+  border: black solid 5px;
+  display: inline-block;
+}
+
+#page_content p{
+  padding: 3px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+/* Стили для оборачивающего блока левого сайдбара */
+#page_content #page_content_left {
+  width: 65%;
+  background: #2a18d4;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  padding: 0px 0 20px 0;
+}
+
+#page_content #page_content_right {
+  width: 30%;
+  background: #2a18d4;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: right;
+  padding: 0px 0 20px 0;
+}
+
+
+
+/*---- Начало блока подвала (футера) ----*/
+
+/* Стили для оборачивающего блока подвала (футера) */
+#wrapper #footer {
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0 12px 0;
+  height: 45px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  border: #1b2325 solid 1px;
+  background: #cedfd6;
+}
+
+/*---- Конец блока подвала (футера) ----*/
